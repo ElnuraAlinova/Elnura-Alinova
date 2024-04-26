@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="StudyMate Schedule Tab">
+    <test name="Verify Schedule">
+        <classes>
+            <class name="tests.LoginTests"></class>
+            <class name="tests.ScheduleTests"></class>
+        </classes>
+    </test>
+</suite>
